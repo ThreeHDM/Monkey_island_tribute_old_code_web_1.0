@@ -1,0 +1,50 @@
+<html>
+
+<head>
+<title>Pagina nueva 2</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<SCRIPT LANGUAGE="JavaScript">
+var txt="--EL MUNDO DE MI MONOMANIACOS DE TIEMPO COMPLETO--";
+var espera=200;
+var refresco=null;
+function rotulo_title() {
+        document.title=txt;
+        txt=txt.substring(1,txt.length)+txt.charAt(0);
+        refresco=setTimeout("rotulo_title()",espera);}
+rotulo_title();
+</SCRIPT>
+<SCRIPT languague="JavaScript">
+<!--
+ var cuenta=0
+ var texto="(::::Quireo ser pirata::::Ey!! mira detras de ti un mono de tres cabezas::::)"
+ function scrolltexto () {
+ window.status=texto.substring (cuenta,texto.length)+  texto.substring(0,cuenta)
+ if (cuenta <texto.length){ cuenta ++
+ }else{
+ cuenta=0
+ }
+ setTimeout("scrolltexto()",150)
+ }
+ scrolltexto ()
+//-->
+</SCRIPT>
+
+
+</head>
+
+<frameset rows="*" framespacing="0" border="0" frameborder="0">
+  <frameset cols="260,*">
+    <frame name="contenido" target="principal" src="marco%20der%20inicio.htm" scrolling="auto" style="border:1px solid #000000; text-align: left; text-indent: 0; word-spacing: 0; line-height: 100%; margin: 0">
+    <frame name="principal" src="pag%20central%20inicio.htm" marginwidth="100" marginheight="16" scrolling="auto" target="_self">
+  </frameset>
+  <noframes>
+  <body style="background-color: #FF0000; color: #C0C0C0; background-image: url('../cmi/WallpaperMI3-05_800x600.jpg'); border-style: "solid">
+
+  <p>Esta página usa marcos, pero su explorador no los admite.</p>
+
+  </body>
+  </noframes>
+</frameset>
+
+</html>
