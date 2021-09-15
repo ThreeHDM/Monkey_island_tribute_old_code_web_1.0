@@ -12,7 +12,7 @@ Also to show my love for web development and, of course, my love for the Monkey 
 
 This site was created using Microsoft Frontpage so.. as hard as it sounds... it runs properly on IE.
 
-Here is the link to view it:
+[Here is the link to view it](https://threehdm.github.io/Monkey_island_tribute_old_code_web_1.0/pagina%20inicio.htm) 
 
 Enjoy!
 
